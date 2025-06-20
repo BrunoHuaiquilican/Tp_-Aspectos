@@ -11,6 +11,7 @@ import java.lang.reflect.Method;
 
 @Aspect
 public class Registracion {
+
     //@Before("execution(* aop..*.insultarA(..)) || execution(* aop..*.dialogarCon(..))")
     //@Before("execution(@Registrar * *(..))")
     public void registrarAntes(JoinPoint joinPoint) {
